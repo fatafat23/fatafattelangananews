@@ -486,12 +486,6 @@
       '<text x="186" y="86" font-size="30" font-weight="bold" fill="#ffffff">FATAFAT TELANGANA</text>' +
       '<text x="186" y="124" font-size="36" font-weight="bold" fill="#f43f4f">NEWS</text>' +
       '<text x="187" y="150" font-size="10" letter-spacing="4" fill="#aeb9d6">DIGITAL MEDIA</text>' +
-      '<g transform="translate(556,50) scale(1.1)" stroke="#ffffff" stroke-opacity="0.4" fill="none" stroke-width="2" stroke-linejoin="round">' +
-      '<line x1="0" y1="54" x2="4" y2="54"/><line x1="16" y1="54" x2="20" y2="54"/>' +
-      '<path d="M8 54 V62 A4 4 0 0 0 16 62 V54"/>' +
-      '<rect x="5" y="20" width="3" height="26"/><rect x="16" y="20" width="3" height="26"/><rect x="11" y="32" width="5" height="22"/>' +
-      '<path d="M4 20 Q11 10 18 20"/>' +
-      "</g>" +
       photoSvg +
       '<circle cx="' + cx + '" cy="326" r="110" fill="none" stroke="' + NAVY + '" stroke-width="4"/>' +
       '<circle cx="' + cx + '" cy="326" r="117" fill="none" stroke="' + GOLD + '" stroke-width="2"/>' +
