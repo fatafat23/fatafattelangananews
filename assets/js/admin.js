@@ -386,7 +386,7 @@
   // PVC CR80 portrait: 54mm x 85.6mm at 300 DPI = 638 x 1013 px
   var CARD_W = 638;
   var CARD_H = 1013;
-  var SITE_URL = "https://www.fatafattelangananews.com";
+  var SITE_URL = "https://fatafattelangananews-rho.vercel.app";
   var LOGO = window.FT_LOGO_DATA || "";
   var idSide = "front";
 

@@ -32,6 +32,8 @@
     }
   ],
   "redirects": [
+    { "source": "/verify", "destination": "/verify.html", "statusCode": 200 },
+    { "source": "/verify/", "destination": "/verify.html", "statusCode": 200 },
     { "source": "/videos", "destination": "/videos.html", "statusCode": 200 },
     { "source": "/videos/", "destination": "/videos.html", "statusCode": 200 },
     { "source": "/telangana-districts", "destination": "/telangana-districts.html", "statusCode": 200 },
