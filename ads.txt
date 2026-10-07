@@ -1,7 +1,1 @@
-# ===== Google AdSense / Ad Manager ko yahan publisher ID add karein =====
-# Example:
-# google.com, pub-XXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-#
-# Google AdSense account mile to "ca-pub-XXXX" wala ID yahan paste karein.
-# Ya phir AdSense panel -> Site  -> ads.txt  se exact line copy karke paste karein.
-# NOTE: Ye file site ROOT me hi rehni chahiye (yahin hai).
+google.com, pub-1619744726885376, DIRECT, f08c47fec0942fa0
