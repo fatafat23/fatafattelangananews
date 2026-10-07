@@ -193,6 +193,7 @@
     "Puducherry": ["Karaikal", "Mahe", "Puducherry", "Yanam"]
   },
   people: [
-    { "id": "FT-R-001", "name": "mohd saad ahmed", "mobile": "9966338188", "designation": "senior", "state": "Telangana", "district": "Mahabubnagar", "active": true }
+    { "id": "FT-R-001", "name": "mohd saad ahmed", "mobile": "9966338188", "designation": "senior", "state": "Telangana", "district": "Mahabubnagar", "active": true },
+    { "id": "FT-R-002", "name": "salmn", "mobile": "757575", "designation": "hi", "state": "Madhya Pradesh", "district": "Burhanpur", "active": true }
   ]
 };

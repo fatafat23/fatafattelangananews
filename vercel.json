@@ -31,20 +31,20 @@
       ]
     }
   ],
-  "redirects": [
-    { "source": "/verify", "destination": "/verify.html", "statusCode": 200 },
-    { "source": "/verify/", "destination": "/verify.html", "statusCode": 200 },
-    { "source": "/videos", "destination": "/videos.html", "statusCode": 200 },
-    { "source": "/videos/", "destination": "/videos.html", "statusCode": 200 },
-    { "source": "/telangana-districts", "destination": "/telangana-districts.html", "statusCode": 200 },
-    { "source": "/telangana-districts/", "destination": "/telangana-districts.html", "statusCode": 200 },
-    { "source": "/indian-states", "destination": "/indian-states.html", "statusCode": 200 },
-    { "source": "/indian-states/", "destination": "/indian-states.html", "statusCode": 200 },
-    { "source": "/search", "destination": "/search.html", "statusCode": 200 },
-    { "source": "/search/", "destination": "/search.html", "statusCode": 200 },
-    { "source": "/reporters", "destination": "/reporters.html", "statusCode": 200 },
-    { "source": "/reporters/", "destination": "/reporters.html", "statusCode": 200 },
-    { "source": "/info", "destination": "/info.html", "statusCode": 200 },
-    { "source": "/info/", "destination": "/info.html", "statusCode": 200 }
+  "rewrites": [
+    { "source": "/verify", "destination": "/verify.html" },
+    { "source": "/verify/", "destination": "/verify.html" },
+    { "source": "/videos", "destination": "/videos.html" },
+    { "source": "/videos/", "destination": "/videos.html" },
+    { "source": "/telangana-districts", "destination": "/telangana-districts.html" },
+    { "source": "/telangana-districts/", "destination": "/telangana-districts.html" },
+    { "source": "/indian-states", "destination": "/indian-states.html" },
+    { "source": "/indian-states/", "destination": "/indian-states.html" },
+    { "source": "/search", "destination": "/search.html" },
+    { "source": "/search/", "destination": "/search.html" },
+    { "source": "/reporters", "destination": "/reporters.html" },
+    { "source": "/reporters/", "destination": "/reporters.html" },
+    { "source": "/info", "destination": "/info.html" },
+    { "source": "/info/", "destination": "/info.html" }
   ]
 }
