@@ -1,0 +1,18 @@
+# ===== Netlify (ya Vercel/cPanel nahi - sirf Netlify par) =====
+# Extensionless clean URLs -> .html files
+/                   /index.html         200
+/videos             /videos.html        200
+/videos/            /videos.html        200
+/telangana-districts  /telangana-districts.html 200
+/telangana-districts/ /telangana-districts.html 200
+/indian-states      /indian-states.html 200
+/indian-states/     /indian-states.html 200
+/search             /search.html        200
+/search/            /search.html        200
+/reporters          /reporters.html     200
+/reporters/         /reporters.html     200
+/info               /info.html          200
+/info/              /info.html          200
+
+# 404 page (page not found -> real 404 status)
+/*                  /404.html           404

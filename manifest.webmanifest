@@ -1,0 +1,23 @@
+{
+  "name": "Fatafat Telangana News",
+  "short_name": "Fatafat TS News",
+  "description": "Sabse tez Telangana District & India news - Hyderabad, politics, business, cricket, weather, jobs.",
+  "lang": "en-IN",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d92027",
+  "icons": [
+    {
+      "src": "logo.jfif",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/charminar.jpg",
+      "sizes": "1200x675",
+      "type": "image/jpeg"
+    }
+  ]
+}
