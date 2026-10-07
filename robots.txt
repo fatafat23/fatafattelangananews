@@ -1,4 +1,4 @@
-﻿User-agent: *
+﻿﻿User-agent: *
 Allow: /
 
 # Internal/admin pages Google ko crawl nahi karne de
@@ -14,4 +14,4 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-Sitemap: https://www.fatafattelangananews.com/sitemap.xml
+Sitemap: https://www.fatafattelangananews.online/sitemap.xml

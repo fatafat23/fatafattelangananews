@@ -1,7 +1,7 @@
 window.FT_SHARE = window.FT_SHARE || {
   email: "fatafattelangananews@gmail.com",
   wa: "9779743971097",
-  site: "https://www.fatafattelangananews.com/"
+  site: "https://www.fatafattelangananews.online/"
 };
 
 (function () {
