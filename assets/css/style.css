@@ -16,6 +16,8 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+html { overflow-x: hidden; }
+
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
 body {
@@ -24,9 +26,12 @@ body {
   color: var(--ink);
   line-height: 1.6;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 img { max-width: 100%; display: block; }
+video, iframe, canvas, svg { max-width: 100%; }
+h1, h2, h3, h4, p, a, li, span, td, th, button, input { overflow-wrap: break-word; }
 a { color: inherit; text-decoration: none; }
 ul { list-style: none; }
 
@@ -802,11 +807,59 @@ ul { list-style: none; }
 }
 
 @media (max-width: 520px) {
+  .container { padding: 0 14px; }
+  .section { padding: 26px 0; }
   .cards, .dir-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
-  .section-title { font-size: 18px; }
-  .page-hero h2 { font-size: 26px; }
+  .section-title { font-size: 16px; padding-left: 12px; }
+  .section-link { font-size: 12px; }
+  .section-head { margin-bottom: 14px; }
+  .topbar .container { min-height: 34px; font-size: 12px; gap: 8px; }
+  .topbar-left { gap: 8px; }
+  .brand-logo { width: 42px; height: 42px; }
+  .masthead .container { gap: 10px; padding-top: 12px; padding-bottom: 12px; }
+  .brand { gap: 10px; }
+  .brand-text h1 { font-size: 19px; }
+  .brand-tagline { font-size: 9.5px; letter-spacing: .08em; }
+  .lead-story { min-height: 300px; }
   .lead-inner { padding: 20px; }
+  .lead-inner h2 { font-size: 22px; }
+  .lead-tag { font-size: 25px; }
+  .stack-story { padding: 14px; }
+  .stack-story h3 { font-size: 16.5px; }
+  .side-head { font-size: 13px; }
+  .card-body { padding: 13px 14px 15px; }
+  .card h3 { font-size: 15.5px; }
+  .card p { font-size: 13.5px; }
+  .story-item { padding: 12px; }
+  .story-item h3 { font-size: 16.5px; }
+  .story-item .thumb { height: 150px; }
+  .hb-inner { padding: 24px 18px; }
+  .hb-inner h3 { font-size: 19px; }
+  .hb-inner p { font-size: 14px; margin-bottom: 16px; }
+  .hb-btn { padding: 10px 18px; font-size: 13.5px; }
+  .hero-banner { min-height: 230px; }
+  .news-col > h3 { font-size: 13px; }
+  .news-list a { font-size: 13.5px; }
+  .w-temp { font-size: 36px; }
+  .w-chip { white-space: normal; }
+  .video-follow { gap: 10px; }
+  .btn-follow { padding: 10px 16px; font-size: 13.5px; }
+  .footer-main { padding: 30px 0 22px; }
+  .footer-brand strong { font-size: 18px; }
+  .footer-top .container { font-size: 14px; }
+  .footer-bottom .container { font-size: 12px; }
+  .page-hero { padding: 26px 0; }
+  .page-hero h2 { font-size: 25px; }
+  .page-hero p { font-size: 14.5px; }
+  .dir-card { padding: 15px; }
+  .dir-card h3 { font-size: 16.5px; }
+  .sub-head { font-size: 15px; }
+  .tip-card { padding: 18px; }
+  .ticker-label { font-size: 11px; padding: 8px 12px; }
+  .ticker-content { font-size: 13px; gap: 30px; }
+  .ticker-content a { padding: 0; }
+  .back-top { right: 14px; bottom: 14px; width: 40px; height: 40px; }
 }
 
 /* ---------- Video section ---------- */
