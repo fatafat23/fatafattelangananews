@@ -192,5 +192,7 @@
     "Lakshadweep": ["Lakshadweep"],
     "Puducherry": ["Karaikal", "Mahe", "Puducherry", "Yanam"]
   },
-  people: [  ]
+  people: [
+    { "id": "FT-R-001", "name": "mohd saad ahmed", "mobile": "9966338188", "designation": "senior", "state": "Telangana", "district": "Mahabubnagar", "active": true }
+  ]
 };
